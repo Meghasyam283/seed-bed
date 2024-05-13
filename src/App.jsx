@@ -1,6 +1,7 @@
 import Home from "./Components/Home/Home";
 import Feature from "./Components/Features/Feature";
 import ContactUs from "./Components/ContactUs/ContactUs";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Navbar from "./Components/Navbar/Navbar";
 import Cactus from "./Components/Home/cactus/Cactus";
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
