@@ -4,7 +4,6 @@ import {
   RouterProvider,
   createBrowserRouter,
 } from "react-router-dom";
-import router from "./Components/Routes/route";
 import Home from "./Components/Home/Home";
 import ContactUs from "./Components/Contact Us/ContactUs";
 import Login from "./Components/Login/Login";
@@ -13,6 +12,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Features from "./Components/Features/Feature";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Register from "./Components/Register/Register";
+import SinglePlant from "./Components/SinglePlant/SinglePlant";
 
 function App() {
   const router = createBrowserRouter([
@@ -42,8 +42,16 @@ function App() {
       element: <Features />,
     },
     {
+      path: "/contactus",
+      element: <ContactUs />,
+    },
+    {
       path: "/register",
       element: <Register />,
+    },
+    {
+      path: "/singleplant",
+      element: <SinglePlant />,
     },
   ]);
   return (

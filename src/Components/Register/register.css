@@ -1,0 +1,91 @@
+* {
+  background: white;
+}
+
+.logout-BG {
+  margin-left: 0px;
+}
+
+.logout-BG img {
+  height: 700px;
+  width: 1200x;
+  border-top-right-radius: 60%;
+  border-radius: 0 100em 100em 0;
+}
+
+.register-form {
+  height: 620px;
+  width: 350px;
+  background: rgba(231, 252, 233, 0.05);
+  margin-left: 1100px;
+  position: absolute;
+  margin-top: -690px;
+  border-radius: 20px;
+  padding-top: 45px;
+  box-shadow: 8px 8px 3px #8eb490;
+  transition: 0.5s;
+}
+
+.register-form:hover {
+  transform: scale(1.05);
+}
+.register-items {
+  background: rgba(231, 252, 233, 0.05);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  align-items: center;
+}
+.register-form input {
+  background: rgba(231, 252, 233, 0.05);
+  border: none;
+  border: 2px solid #8eb490;
+  color: rgba(0, 0, 0, 0.61);
+  font-size: 15px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  height: 25px;
+}
+.register-form input:focus {
+  background: none;
+}
+
+.register-form p,
+h2 {
+  background: rgba(231, 252, 233, 0.05);
+  border: none;
+}
+.register-form h2 {
+  color: #165419;
+  font-size: 30px;
+}
+
+.register-form button {
+  background-color: #165419;
+  color: white;
+  margin-top: 20px;
+  width: 300px;
+}
+.register-form button:focus {
+  outline: none;
+  border: none;
+}
+.register-items .register {
+  margin-top: 20px;
+  font-size: 12px;
+  background: none;
+}
+.register-items .register a {
+  color: #165419;
+  background: none;
+  font-weight: 600;
+}
+.register-items .register a:hover {
+  transform: scale(1.09);
+  font-weight: 700;
+}

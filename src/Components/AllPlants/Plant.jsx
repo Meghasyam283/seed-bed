@@ -70,7 +70,7 @@ function Plant(props) {
       <h2 className="card-title">{item.name}</h2>
       <p className="">{item.desc}</p>
       <button onClick={() => setCount(count + 1)} className="add-cart">
-        Add to
+        Add to cart
       </button>
     </div>
   ));
