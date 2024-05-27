@@ -15,5 +15,12 @@ Start your indoor gardening adventure today with SeedBed. Download our app now a
 Login Page:
 ![image](https://github.com/Meghasyam283/seed-bed/assets/82363294/b9b79dd7-76e4-48f6-aa6f-89adf7e4a2bc)
 
+Invalid Credentials: 
+![image](https://github.com/Meghasyam283/seed-bed/assets/82363294/099ce583-b50b-42b4-a949-d0f09d2bad66)
+
 Home Page:
 ![image](https://github.com/Meghasyam283/seed-bed/assets/82363294/7181a56b-fc63-4584-b620-14bd0de1089f)
+
+Adding to Cart:
+![image](https://github.com/Meghasyam283/seed-bed/assets/82363294/18f95035-30fb-4a9b-b4e8-c366afda0e51)
+
