@@ -2,10 +2,12 @@ import "../Navbar/navbar.css";
 import logo from "../../assets/seedbedlogo.png";
 import cart from "../../assets/shopping-cart.png";
 import { Link, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import ContactUs from "../Contact Us/ContactUs";
+// import { LoginContext, useUserContext } from "../AppContext/Context";
 
 function Navbar(props) {
+  // const user = useUserContext();
   const navigate = useNavigate();
   const str = props.countofItems;
   function handleLogout() {
@@ -34,6 +36,7 @@ function Navbar(props) {
         <button className="nav-button" onClick={handleLogout}>
           Logout
         </button>
+        {/* <p>Hello {useUserContext()}</p> */}
       </div>
     </>
   );

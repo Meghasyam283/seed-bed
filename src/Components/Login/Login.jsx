@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import logoutImg from "../../assets/log.jpg";
+import { Link } from "react-router-dom";
+// import { LoginContext } from "../AppContext/Context";
+import Navbar from "../Navbar/Navbar";
 import "./login.css";
 function Login() {
   const [username, setUsername] = useState("");
@@ -63,9 +66,22 @@ function Login() {
                 Login
               </button>
             </div>
+
+            <div className="login-items">
+              <div className="register">
+                <p>
+                  If you are a new user{" "}
+                  <Link to="/register">Click here to register</Link>
+                </p>
+              </div>
+            </div>
           </div>
         </form>
       </div>
+
+      {/* <LoginContext.Provider value={username}>
+        <LoginContext />
+      </LoginContext.Provider> */}
     </>
   );
 }

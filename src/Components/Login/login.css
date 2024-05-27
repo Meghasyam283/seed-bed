@@ -71,3 +71,17 @@ h2 {
   outline: none;
   border: none;
 }
+.login-items .register {
+  margin-top: 20px;
+  font-size: 12px;
+  background: none;
+}
+.login-items .register a {
+  color: #165419;
+  background: none;
+  font-weight: 600;
+}
+.login-items .register a:hover {
+  transform: scale(1.09);
+  font-weight: 700;
+}

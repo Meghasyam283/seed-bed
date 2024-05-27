@@ -12,6 +12,7 @@ import Plant from "./Components/AllPlants/Plant";
 import Navbar from "./Components/Navbar/Navbar";
 import Features from "./Components/Features/Feature";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
+import Register from "./Components/Register/Register";
 
 function App() {
   const router = createBrowserRouter([
@@ -39,6 +40,10 @@ function App() {
     {
       path: "/feature",
       element: <Features />,
+    },
+    {
+      path: "/register",
+      element: <Register />,
     },
   ]);
   return (
