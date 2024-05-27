@@ -66,5 +66,8 @@ h2 {
   color: white;
   margin-top: 20px;
   width: 300px;
+}
+.login-form button:focus {
+  outline: none;
   border: none;
 }

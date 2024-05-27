@@ -1,12 +1,12 @@
+import { Outlet } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
-import Cactus from "./cactus/Cactus";
-import Login from "../Login/Login";
+import Plant from "../AllPlants/Plant";
 
 function Home() {
   return (
     <>
       <Navbar />
-      <Cactus />
+      <Plant />
     </>
   );
 }

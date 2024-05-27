@@ -1,16 +1,17 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import logoutImg from "../../assets/log.jpg";
-import Home from "../Home/Home";
 import "./login.css";
-function Login({ onLogin }) {
+function Login() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  let navigate = useNavigate();
 
   function handleLogin(e) {
     e.preventDefault();
     if (email === "a" && password === "a") {
-      onLogin();
+      navigate("/home");
     } else {
       alert("Invalid username or password");
     }
@@ -58,8 +59,8 @@ function Login({ onLogin }) {
             </div>
 
             <div className="login-items">
-              <button type="submit" id="logout-btn">
-                Login{" "}
+              <button type="submit" id="logout-btn" className="btn btn-primary">
+                Login
               </button>
             </div>
           </div>

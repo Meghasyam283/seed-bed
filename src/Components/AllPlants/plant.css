@@ -1,6 +1,10 @@
+* {
+}
+
 .card {
   border: 1px solid hsl(78, 19%, 80%);
   border-radius: 5px;
+  top: 330px;
   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
   padding: 20px;
   margin-top: 120px;
@@ -13,7 +17,7 @@
 .card:hover {
   /* -ms-transform: scale(0.5);
   -webkit-transform: scale(0.5); */
-  transform: scale(1.12);
+  transform: scale(1.09);
 }
 .card .card-img {
   height: 200px;
@@ -34,4 +38,6 @@
 .card .add-cart {
   background-color: #165419;
   color: white;
+  outline: none;
+  border: 0;
 }
