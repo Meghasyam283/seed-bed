@@ -23,3 +23,7 @@ Home Page:
 
 Adding to Cart:
 ![image](https://github.com/Meghasyam283/seed-bed/assets/82363294/18f95035-30fb-4a9b-b4e8-c366afda0e51)
+
+Contact Us: 
+![image](https://github.com/Meghasyam283/seed-bed/assets/82363294/04dc5094-c989-4e82-abe2-f00158c0b17d)
+
