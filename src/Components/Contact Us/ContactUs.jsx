@@ -1,7 +1,8 @@
+import Navbar from "../Navbar/Navbar";
 function ContactUs() {
   return (
     <>
-      <h2>ContactUs Page</h2>
+      <Navbar />
     </>
   );
 }

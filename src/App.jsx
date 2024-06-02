@@ -12,7 +12,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Features from "./Components/Features/Feature";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Register from "./Components/Register/Register";
-import SinglePlant from "./Components/SinglePlant/SinglePlant";
+import PlantCard from "./Components/IndividualPlant/Plantcard";
 
 function App() {
   const router = createBrowserRouter([
@@ -50,8 +50,8 @@ function App() {
       element: <Register />,
     },
     {
-      path: "/singleplant",
-      element: <SinglePlant />,
+      path: "/plantcard",
+      element: <PlantCard />,
     },
   ]);
   return (

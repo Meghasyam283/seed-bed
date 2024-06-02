@@ -1,0 +1,71 @@
+.card-item-component {
+  height: 400px;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 70px;
+  border-radius: 5px;
+  padding: 40px;
+  align-items: stretch;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img img {
+  height: 390px;
+  /* border-radius: 5px; */
+}
+.card-content {
+  top: -30px;
+  margin-left: 30px;
+}
+.card-title {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.card-item-rating .checked {
+  color: orange;
+}
+.card-hist {
+  font-size: 14px;
+}
+.card-discount {
+  color: red;
+  font-size: 30px;
+}
+.card-curr-price {
+  font-size: 30px;
+}
+
+.card-currency {
+  position: static;
+  top: 15px;
+}
+.del-span {
+  color: green;
+}
+.card-buynow button {
+  color: white;
+  width: 350px;
+  background-color: #165419;
+}
+
+.card-item-total span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.card-mrp span {
+  position: relative;
+  bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.card-mrp .mrp-amt {
+  text-decoration: line-through;
+}
+.gap {
+  height: 10px;
+}
+.card-item-total span {
+  font-size: 16px;
+}

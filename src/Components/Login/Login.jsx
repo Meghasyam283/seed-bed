@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 // import { LoginContext } from "../AppContext/Context";
 import Navbar from "../Navbar/Navbar";
 import "./login.css";
+
 function Login() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
