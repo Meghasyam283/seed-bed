@@ -27,7 +27,7 @@
 }
 
 .login-form:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .login-items {
   background: rgba(231, 252, 233, 0.05);
