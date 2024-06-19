@@ -25,7 +25,9 @@ Adding to Cart:
 ![image](https://github.com/Meghasyam283/seed-bed/assets/82363294/18f95035-30fb-4a9b-b4e8-c366afda0e51)
 
 Contact Us Component: 
-![image](https://github.com/Meghasyam283/seed-bed/assets/82363294/04dc5094-c989-4e82-abe2-f00158c0b17d)
+![image](https://github.com/Meghasyam283/seed-bed/assets/82363294/44ff721c-68f8-487e-893d-7b295f46c1f0)
+
+
 
 Individual Plant Component: 
 ![image](https://github.com/Meghasyam283/seed-bed/assets/82363294/beaa9d79-05a6-4d5f-beb8-a8a2557b6bc3)
