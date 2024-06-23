@@ -14,6 +14,9 @@ function Navbar(props) {
   function handleLogout() {
     navigate("/login");
   }
+  function handleCart() {
+    navigate("/cart");
+  }
   return (
     <>
       <div className="navbar">
@@ -30,7 +33,7 @@ function Navbar(props) {
             <Link to="/contactus">ContactUs</Link>
           </li>
         </ul>
-        <img className="cart" src={cart} />
+        <img className="cart" src={cart} onClick={handleCart} />
         <div className="cartItems">
           <p>{str}</p>
         </div>

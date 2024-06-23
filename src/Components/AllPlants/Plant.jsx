@@ -12,9 +12,10 @@ function Plant() {
   const [id, setId] = useState(0);
   // const { setSelectedId } = useContext(IdContext);
 
-  function handlePlantClick() {
+  function handlePlantClick(event) {
     // setSelectedId(id);
-    navigate("/plantcard");
+    console.log(event);
+    navigate(`/plantcard/${event.target.id}`);
   }
 
   const cactusListItems = cactusList.map((item) => (
@@ -24,6 +25,7 @@ function Plant() {
         src={item.img}
         alt="plant pic"
         onClick={handlePlantClick}
+        id={item.id}
       />
       <h2 className="card-title">{item.name}</h2>
       <p className="">{item.desc}</p>

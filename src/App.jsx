@@ -13,6 +13,7 @@ import Features from "./Components/Features/Feature";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Register from "./Components/Register/Register";
 import PlantCard from "./Components/IndividualPlant/Plantcard";
+import Cart from "./Components/Cart/Cart";
 
 function App() {
   const router = createBrowserRouter([
@@ -50,8 +51,12 @@ function App() {
       element: <Register />,
     },
     {
-      path: "/plantcard",
+      path: "/plantcard/:id",
       element: <PlantCard />,
+    },
+    {
+      path: "/cart",
+      element: <Cart />,
     },
   ]);
   return (

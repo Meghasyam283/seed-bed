@@ -1,0 +1,66 @@
+{
+  "1": {
+    "img": "https://i.postimg.cc/3wJqqLVh/pic1.jpg",
+    "name": "Saguaro",
+    "price": 520,
+    "desc": "The saguaro is a tree-like cactus species in the monotypic genus Carnegiea that can grow to be over 12 meters tall.",
+    "discount": "2",
+    "history": "80+ bought in last week"
+  },
+  "2": {
+    "img": "https://i.ibb.co/TmN3Nhj/alovera.jpg",
+    "name": "Alovera",
+    "price": 700,
+    "desc": "Aloe vera is a succulent plant species of the genus Aloe. It is widely distributed, and is considered an invasive species.",
+    "discount": "4",
+    "history": "10+ bought in last week"
+  },
+  "3": {
+    "img": "https://i.ibb.co/wdtsJ8t/kasturi.jpg",
+    "name": "Kasturi",
+    "price": 300,
+    "desc": "Flower-heads purple, cylindrical 1.3-2 cm long, deeply embedded in woolly hairs and densely clustered at the top of the stem",
+    "discount": "12",
+    "history": "11+ bought in last week"
+  },
+  "4": {
+    "img": "https://i.ibb.co/9YZdcMH/TULSI.jpg",
+    "name": "Tulsi",
+    "price": 340,
+    "desc": "holy basil or tulsi, is an aromatic perennial plant in the family Lamiaceae. It is native to tropical and subtropical regions ",
+    "discount": "4.9",
+    "history": "93+ bought in last week"
+  },
+  "5": {
+    "img": "https://i.postimg.cc/3wJqqLVh/pic1.jpg",
+    "name": "Saguaro",
+    "price": 1000,
+    "desc": "The saguaro is a tree-like cactus species in the monotypic genus Carnegiea that can grow to be over 12 meters tall.",
+    "discount": "2",
+    "history": "43+ bought in last week"
+  },
+  "6": {
+    "img": "https://i.ibb.co/TmN3Nhj/alovera.jpg",
+    "name": "Alovera",
+    "price": 650,
+    "desc": "Aloe vera is a succulent plant species of the genus Aloe. It is widely distributed, and is considered an invasive species.",
+    "discount": "12",
+    "history": "54+ bought in last week"
+  },
+  "7": {
+    "img": "https://i.ibb.co/wdtsJ8t/kasturi.jpg",
+    "name": "Kasturi",
+    "price": 300,
+    "desc": "Flower-heads purple, cylindrical 1.3-2 cm long, deeply embedded in woolly hairs and densely clustered at the top of the stem",
+    "discount": "12",
+    "history": "60+ bought in last week"
+  },
+  "8": {
+    "img": "https://i.ibb.co/9YZdcMH/TULSI.jpg",
+    "name": "Tulsi",
+    "price": 700,
+    "desc": "holy basil or tulsi, is an aromatic perennial plant in the family Lamiaceae. It is native to tropical and subtropical regions ",
+    "discount": "18",
+    "history": "90+ bought in last week"
+  }
+}

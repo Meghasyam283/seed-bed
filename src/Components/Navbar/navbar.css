@@ -74,6 +74,7 @@
   background-color: #dfffe1;
   height: 30px;
   width: 30px;
+  cursor: pointer;
 }
 .navbar .cartItems {
   background-color: #165419;

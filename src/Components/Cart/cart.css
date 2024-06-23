@@ -1,0 +1,28 @@
+.all-cart-items {
+  height: 500px;
+  width: 1300px;
+  position: relative;
+  top: 30px;
+  left: 50px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.164);
+}
+
+.cart-item,
+.cart-quantity {
+  display: flex;
+}
+.cart-item-title-price {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+}
+.cart-item-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.cart-item img {
+  display: flex;
+  height: 230px;
+  width: 230px;
+}
